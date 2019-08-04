@@ -12,3 +12,5 @@ end
 group :test do
   gem "rspec"
 end
+
+Failure/Error: expect(@gemfile_text =~ /gem ['"]awesome_print['"], ?(git:|:git ?=>) ?['"]git@github\.com:awesome\-print\/awesome_print\.git['"]/).not_to eq(nil)
